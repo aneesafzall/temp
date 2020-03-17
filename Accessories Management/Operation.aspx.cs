@@ -31,10 +31,10 @@ namespace Accessories_Management
                 //call the delete method of the object
                 MyAccessory.Delete();
                 //redirect back to the main page
-                Response.Redirect("Default.aspx");
+                Response.Redirect("AccessorySearch.aspx");
 
             }
-            Response.Redirect("Default.aspx");
+            Response.Redirect("AccessorySearch.aspx");
         }
     }
 }

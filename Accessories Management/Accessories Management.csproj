@@ -74,7 +74,7 @@
     </Content>
     <Content Include="Operation.aspx" />
     <Content Include="Web.config" />
-    <Content Include="Default.aspx" />
+    <Content Include="AccessorySearch.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccessoryList.Master.cs">
@@ -94,12 +94,12 @@
     <Compile Include="clsAccessories.cs" />
     <Compile Include="clsAccessoryCollection.cs" />
     <Compile Include="clsDataConnection.cs" />
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="AccessorySearch.aspx.cs">
+      <DependentUpon>AccessorySearch.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="AccessorySearch.aspx.designer.cs">
+      <DependentUpon>AccessorySearch.aspx</DependentUpon>
     </Compile>
     <Compile Include="Operation.aspx.cs">
       <DependentUpon>Operation.aspx</DependentUpon>

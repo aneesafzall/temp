@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/AccessoryList.Master" CodeBehind="Default.aspx.cs" Inherits="Accessories_Management.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/AccessoryList.Master" CodeBehind="AccessorySearch.aspx.cs" Inherits="Accessories_Management.WebForm1" %>
 
 <asp:Content ID="css" ContentPlaceHolderID="css" runat="server">
     <style>
@@ -40,7 +40,7 @@
             <br />
                        <div style="display:flex;justify-content:space-around;width:500px;height:90px">
                         <div>
-                             <asp:Label ID="Label1" CssClass="" runat="server" style="z-index: 1; width: 317px" Text="Please Enter a Accessory Price"></asp:Label>
+                             <asp:Label ID="Label1" CssClass="" runat="server" style="z-index: 1; width: 317px" Text="Please Enter an Accessory Price"></asp:Label>
                         </div>
                         <div style="display:flex;flex-direction:column;justify-content:space-between;align-items:flex-end">
                             <asp:TextBox ID="txtPrice" CssClass="form-control" runat="server" style="z-index: 1; width: 169px"></asp:TextBox>
@@ -51,7 +51,7 @@
             <br />
                     <div style="display:flex;justify-content:space-around;width:500px;height:90px">
                         <div>
-                             <asp:Label ID="Label2" runat="server" style="z-index: 1; width: 317px" Text="Please Enter a Accessory Quantity"></asp:Label>
+                             <asp:Label ID="Label2" runat="server" style="z-index: 1; width: 317px" Text="Please Enter an Accessory Quantity"></asp:Label>
                         </div>
                         <div style="display:flex;flex-direction:column;justify-content:space-between;align-items:flex-end">
                             <asp:TextBox ID="txtQuantity" CssClass="form-control" runat="server" style="z-index: 1; width: 169px"></asp:TextBox>
@@ -61,7 +61,7 @@
             <br />
                        <div style="display:flex;justify-content:space-around;width:500px;height:90px">
                         <div>
-                             <asp:Label ID="Label3"  runat="server" style="z-index: 1; width: 317px" Text="Please Enter a Accessory Type"></asp:Label>
+                             <asp:Label ID="Label3"  runat="server" style="z-index: 1; width: 317px" Text="Please Enter an Accessory Type"></asp:Label>
                         </div>
                         <div style="display:flex;flex-direction:column;justify-content:space-between;align-items:flex-end">
                             <asp:TextBox ID="txtType" CssClass="form-control" runat="server" style="z-index: 1; width: 169px"></asp:TextBox>

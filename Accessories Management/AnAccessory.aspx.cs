@@ -84,7 +84,7 @@ namespace Accessories_Management
                     Accessory.Update();
                 }
                 //all done so redirect back to the main page
-                Response.Redirect("Default.aspx");
+                Response.Redirect("AccessorySearch.aspx");
             }
             else//there are errors
             {
@@ -98,7 +98,7 @@ namespace Accessories_Management
         protected void btnCancel_Click(object sender, EventArgs e)
         {
             //redirect to the main page
-            Response.Redirect("Default.aspx");
+            Response.Redirect("AccessorySearch.aspx");
         }
 
         
