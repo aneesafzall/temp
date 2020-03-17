@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accessories Management", "Accessories Management\Accessories Management.csproj", "{F38357D3-99C5-4BB0-BF9B-F709C0F25E20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F38357D3-99C5-4BB0-BF9B-F709C0F25E20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F38357D3-99C5-4BB0-BF9B-F709C0F25E20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F38357D3-99C5-4BB0-BF9B-F709C0F25E20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F38357D3-99C5-4BB0-BF9B-F709C0F25E20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9321876-E460-4A15-A9AC-EAD31435CA33}
+	EndGlobalSection
+EndGlobal
